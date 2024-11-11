@@ -1,0 +1,245 @@
+#main, #follow, #topbar, .intro-article, #paragrafo, #info, #descrizione, #img-logo, #buttons, .button, .button-follow, #paragrafo-saved, #footer {
+    display: flex;
+    font-family: "Roboto", serif;
+}
+
+#topbar {
+    height: 7vh;
+    margin: 0 5em;
+    border-bottom: 0.1em solid grey;
+    justify-content: space-between;
+}
+
+#article-uno {
+    height: 200vh;
+    width: 120vh;
+    margin-top: 3.5em;
+    margin-left: 5em;
+    border-right: 0.1em solid grey;
+}
+
+#article-due {
+    height: 200vh;
+    width: 80vh;
+    margin-top: 3.5em;
+    margin-right: 5em;
+    margin-left: 2.5em;
+    text-align: center;
+}
+
+.intro-article :nth-child(2) {
+    margin: 0;
+    padding: 1.67em;
+    border-bottom: 0.2em solid black;
+}
+
+.intro-article {
+    margin-left: 0.7em;
+    border-bottom: 0.1em solid grey;
+    height: 6vh;
+}
+
+.medium-main {
+    height: 80%;
+    width: 12%;
+}
+
+.icons {
+    padding: 0 0.3em;
+}
+
+.button-uno {
+    border-radius: 20px;
+    margin: 1em 0.7em;
+    text-align: center;
+}
+
+.button-due {
+    border-radius: 50%;
+    font-size: 100%;
+    background-color: #ff3a00f5;
+    margin-right: 1.3em;
+    color: white;
+}
+
+.logo {
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+}
+
+.logo-due {
+    height: 40px;
+    border-radius: 50%;
+}
+
+#paragrafo {
+    padding: 2.5em 0.2em;
+    margin-bottom: 0;
+    padding-bottom: 0.5em;
+    width: 78vh;
+}
+
+#link {
+    margin: 0;
+    margin-left: 0.5em;
+}
+
+.logo-p {
+    margin: 0;
+    padding: 1em;
+}
+
+.button-small {
+    border-radius: 20px;
+    background-color: gainsboro;
+    font-size: x-small;
+    border: none;
+}
+
+.h3-h5 {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+}
+
+.foto-main {
+    height: 130px;
+    padding: 0 2em;
+}
+
+#info, .h6 {
+    margin: 2em 0;
+}
+
+#info-icons {
+    margin-top: 1.2em;
+}
+
+#info {
+    justify-content: space-between;
+}
+
+#descrizione {
+    height: 18vh;
+    width: 115vh;
+}
+
+#principale-due {
+    height: 32vh;
+    border-bottom: 0.1em solid grey;
+}
+
+#img-logo {
+    border: solid grey;
+    border-radius: 20px;
+    height: 5vh;
+    width: 25vh;
+    margin-left: 8.5em;
+    margin-bottom: 2em;
+}
+
+.logo-tre {
+    height: 25px;
+    margin: auto;
+}
+
+.span {
+    font-size: x-large;
+}
+
+.h5-connect {
+    width: 35vh;
+    margin-left: 7em;
+}
+
+.connect {
+    margin: auto;
+    margin-right: 4em;
+}
+
+#parte-due {
+    height: 120vh;
+    text-align: start;
+}
+
+.titolo {
+    margin-top: 2.5em;
+}
+
+#buttons {
+    flex-wrap: wrap;
+    gap: 3%;
+    margin-bottom: 0.9em;
+}
+
+.button {
+    border: solid gainsboro;
+    border-radius: 20px;
+    height: 4vh;
+    width: 13vh;
+    background-color: gainsboro;
+    justify-content: center;
+    align-items: center;
+}
+
+#follow {
+    height: 8vh;
+}
+
+#info-follow {
+    margin-left: 0.7em;
+    width: 25vh;
+}
+
+.profession {
+    margin-bottom: 0;
+    margin-top: 0.7em;
+    display: inline;
+    flex-wrap: wrap;
+}
+
+.button-follow {
+    border: solid gainsboro;
+    border-radius: 20px;
+    height: 4vh;
+    width: 10vh;;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4em;
+}
+
+#paragrafo-saved {
+    margin-bottom: 0;
+}
+
+#titolo-saved {
+    width: 48vh;
+    margin-bottom: 1.5em;
+}
+
+.h6-saved {
+    margin: 0.2em 0;
+}
+
+.see {
+    color: green;
+}
+
+#footer {
+    text-align: start;
+    flex-wrap: wrap;
+    gap: 10%;
+    width: 48vh;
+}
+
+.h6-footer {
+    margin-bottom: 0;
+}
+
+#footer, .h6-saved, .profession, .ancora, .span, .button-small, .h6 {
+    color: gray;
+}
+
+.icons, .button-due, .h5-intro, .logo-p, .h3-h5, .h6, #img-logo, .button, #info-follow, .button-follow, #titolo-saved, .see, .h6-footer {
+    cursor: pointer;
+}
